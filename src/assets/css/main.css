@@ -1,0 +1,56 @@
+
+body.md-theme-default{
+  /*  background-color: black;*/
+}
+.md-theme-default.md-toolbar {
+    background-color: #e91e63;
+    color: rgba(255, 255, 255, .87);
+}
+
+#backToChannel_btn {
+  position: absolute;
+  z-index: 1000;
+  top: 15px;
+  left: 15px;
+}
+
+#fg-plyr iframe {
+    height: 100%;
+}
+
+#app .plyr__play-large svg {
+    height: 20px;
+}
+
+#app iframe {
+  height: 100%;
+}
+
+
+/*.card-layout {
+  width: 100%;
+}
+.md-card {
+  float: left;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#app .md-card-actions {
+  background-color: #eee;
+}
+
+.md-card + .md-card {
+  margin-top: 8px;
+}*/
+
+
+@media (max-width: 768px) {
+  .md-tab {
+    padding: 16px 0;
+  }.md-button {
+    margin: 6px 5px;
+    padding: 0 0;
+  }
+}
